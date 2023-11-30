@@ -4,123 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clone Disney+</title>
+    <title>The The-Walking-Dead+</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
     <header class="header">
         <div class="header__container">
             <h1>
-                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+                <img class="header__logo" src="./dist/images/logo.png" alt="The-Walking-Dead">
             </h1>
             <ul class="header__links">
                 <li class="header__links__item">
-                    <a href="#" class="button button--secondary">HOME</a>
+                    <a href="#hero" class="button button--secondary">HOME</a>
                 </li>
                 <li class="header__links__item">
-                    <a href="#" class="button button--dark">Sobre</a>
+                    <a href="#elenco" class="button button--dark">Elenco</a>
                 </li>
                 <li class="header__links__item">
-                    <a href="#" class="button button--dark">Elendo</a>
+                    <a href="#premiacao" class="button button--dark">Premiações</a>
                 </li>
                 <li class="header__links__item">
-                    <a href="#" class="button button--dark">Premiações</a>
+                    <a href="#trailer" class="button button--dark">Trailer</a>
                 </li>
             </ul>
         </div>
     </header>
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="hero__content">
             <div class="hero__content__branding">
                 <img src="./dist/images/banner/The-Walking-Dead.png" alt="Disney+">
-            </div>
-            <h3 class="title--small">
-                As melhores histórias em um só lugar.
-            </h3>
+            </div>>
         </div>
+            <h2 class="title--big">Sobre</h2>
+            <h3 class="text--big">
+                The Walking Dead é uma série de televisão norte-americana pós-apocalíptica de terror baseada na série de quadrinhos de mesmo nome de Robert Kirkman, Tony Moore e Charlie Adlard.A história segue um grupo de sobreviventes, inicialmente liderados por Rick Grimes (Andrew Lincoln), enquanto tentam sobreviver a um apocalipse zumbi após uma pandemia mortal. A série estreou em 31 de outubro de 2010 e foi concluída em 20 de novembro de 2022.
+            </h3>
     </section>
-    <section class="shows">
-        <nav class="shows__tabs">
-            <button data-tab-button="elenco" class="shows__tabs__button shows__tabs__button--is-active">
-                Elenco
-            </button>
-        </nav>
-        <ul data-tab-id="elenco" class="shows__list shows__list--is-active">
-            <li class="shows__list__item">
+
+    <section id="elenco" class="cast">
+        <h2 class="title--big">Elenco</h2>
+        <ul class="cast__list">
+            <li class="cast__list__item">
                 <img src="./dist/images/personagens/rick.jpg" alt="Rick">
+                <p class="text--big">
+                    Andrew Lincoln
+                 </p>
             </li>
-            <li class="shows__list__item">
+            <li class="cast__list__item">
                 <img src="./dist/images/personagens/negan.jpg" alt="Negan">
+                <p class="text--big">
+                    Jeffrey Dean Morgan
+                 </p>
             </li>
-            <li class="shows__list__item">
+            <li class="cast__list__item">
                 <img src="./dist/images/personagens/Daryl.jpg" alt="Daryl">
+                <p class="text--big">
+                    Norman Reedus
+                 </p>
             </li>
-            <li class="shows__list__item">
+            <li class="cast__list__item">
                 <img src="./dist/images/personagens/michone.jpg" alt="Michone">
+                <p class="text--big">
+                    Danai Gurira
+                 </p>
             </li>
-            <li class="shows__list__item">
+            <li class="cast__list__item">
                 <img src="./dist/images/personagens/carol.jpg" alt="Carol">
+                <p class="text--big">
+                    Melissa McBride
+                 </p>
             </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/personagens/Glenn.jpg" alt="Glenn">
+            <li class="cast__list__item">
+                <img src="./dist/images/personagens/Meg.jpg" alt="Glenn">
+                <p class="text--big">
+                    Lauren Cohan
+                 </p>
             </li>
         </ul>
     </section>
-    <section class="plans">
+    <section id="premiacao" class="award">
         <h2 class="title--big">Premiações</h2>
-        <ul class="plans__list">
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
-                <strong class="title--small">R$ 27,90/mês*</strong>
+        <ul class="award__list">
+            <li class="award__list__item">
+                <img src="./dist/images/premiações/afi awards.jpg" alt="award">
+                <strong class="title--small">2011</strong>
                 <p class="text--big">
-                    No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
+                   Eleita a "Melhor Apresentação de Televisão" no Saturn Awards.
                 </p>
             </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
-                <strong class="title--small">R$ 45,90/mês*</strong>
+            <li class="award__list__item">
+                <img src="./dist/images/premiações/2012.jpg" alt="award">
+                <strong class="title--small">2011</strong>
                 <p class="text--big">
-                    Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
+                    Melhor Edição de Som Editado em Forma Curta — Diálogo e Substituição de Diálogo Automático no Golden Reel Awards.
                 </p>
             </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
-                <strong class="title--small">R$ 55,90/mês*</strong>
+            <li class="award__list__item">
+                <img src="./dist/images/premiações/afi awards.jpg" alt="award">
+                <strong class="title--small">2012</strong>
                 <p class="text--big">
-                    Disney+, Star+ e STARZPLAY em um plano especial. Assine agora os três serviços juntos.
+                    Melhor programa de Televisão do ano no AFI Awards.
+                </p>
+            </li>
+            <li class="award__list__item">
+                <img src="./dist/images/premiações/saturn-awards-twd-2018.png" alt="award">
+                <strong class="title--small">2014</strong>
+                <p class="text--big">
+                    Melhor Drama de TV a Cabo no Peoples's Choice Awards.
                 </p>
             </li>
         </ul>
     </section>
-    <section class="image-text-section">
-        <img src="./dist/images/tv_pc_tablet_celular.png" alt="Imagem com TV, Computador, tablet e celular">
+    <section id="trailer" class="image-text-section">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qAS8f9L-vWc?si=KTIxcuYY_ZfLnlBh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <div class="image-text-section__text_container">
-            <h2 class="title">Assista do seu jeito</h2>
-            <p class="text--big">
-                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.
-            </p>
+            <h2 class="title">Assista agora o trailer da última temporada</h2>
         </div>
     </section>
     <section class="available-devices">
         <h2 class="title">Disponível em diversos streamings</h2>
         <ul class="available-devices__list">
             <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/computador.png" alt="Computador">
+                <img src="./dist/images/streamns/netflix.jpg" alt="Netflix">
                 <h4 class="title--small">Netflix</h4>
                 <button class="button">Assista Agora</button>
             </li>
             <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/tv.png" alt="Computador">
+                <img src="./dist/images/streamns/start+.png" alt="Star+">
                 <h4 class="title--small">Star+</h4>
                 <button class="button">Assista Agora</button>
             </li>
             <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/videogames.png" alt="Computador">
-                <h4 class="title--small">Oi Play</h4>>
-                <button class="button">Assista Agora</button>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/images/dispositivos/celular.png" alt="Computador">
+                <img src="./dist/images/streamns/AMC_logo_2016.svg" alt="Amc+">
                 <h4 class="title--small">Amc+</h4>
                 <button class="button">Assista Agora</button>
             </li>
@@ -131,18 +146,18 @@
         <ul class="faq__questions">
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question>
-                    Pergunta?
+                    A série possui quantas temporadas?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta
+                    A série possui 11 temporadas.
                 </div>
             </li>
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question>
-                    Pergunta?
+                    A série já chegou ao fim?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta
+                Sim, em 2022 a série chegou ao fim.
                 </div>
             </li>
         </ul>
@@ -150,7 +165,7 @@
 
     <footer class="footer">
         <div class="footer__container">
-            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            <img class="footer__logo" src="./dist/images/logo.png" alt="Disney+">
             <ul class="footer__links">
                 <li class="footer__links__item">
                     <div class="language-selector">
@@ -181,15 +196,9 @@
                 <li class="footer__links__item">
                     <a href="#" class="text--small">Ajuda</a>
                 </li>
-                <li class="footer__links__item">
-                    <a href="" class="text--small">Sobre o Disney+</a>
-                </li>
             </ul>
             <p class="text--small">
-                ® 2022 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
-            </p>
-            <p class="text--small">
-                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+                ® 2024 The Walking Dead. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
             </p>
         </div>
     </footer>

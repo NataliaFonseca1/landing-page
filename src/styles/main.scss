@@ -1,7 +1,7 @@
 @use 'variaveis';
 @use 'hero';
-@use 'shows';
-@use 'plans';
+@use 'cast';
+@use 'award';
 @use 'available-devices'; 
 @use 'faq';
 @use 'footer';
@@ -146,7 +146,7 @@ body {
         display: block;
     }
 
-    img {
+    iframe {
         max-width: 100%;
     }
 
